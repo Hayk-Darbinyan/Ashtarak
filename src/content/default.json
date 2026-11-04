@@ -1,0 +1,371 @@
+{
+  "meta": {
+    "title": {
+      "hy": "HORTUS — Լողավազան-այգի",
+      "ru": "HORTUS — Сад с бассейном",
+      "en": "HORTUS — Pool Garden"
+    },
+    "description": {
+      "hy": "HORTUS-ը մասնավոր լողավազան-այգի է Քասաղի կիրճի վերևում․ ջուր, քար և ծառեր՝ լուսաբացից մինչև վերջին լապտերը։",
+      "ru": "HORTUS — частный сад с бассейном над ущельем Касах: вода, камень и деревья от рассвета до последнего фонаря.",
+      "en": "HORTUS is a private pool garden above the Kasagh gorge: water, stone and planting, open from first light until the last lantern."
+    }
+  },
+
+  "brand": {
+    "name": "Hortus",
+    "kind": { "hy": "Լողավազան-այգի", "ru": "Сад с бассейном", "en": "Pool Garden" },
+    "since": "MMXIX",
+    "place": {
+      "hy": "Քասաղի կիրճ · Արագածոտն",
+      "ru": "Ущелье Касах · Арагацотн",
+      "en": "Kasagh Gorge · Aragatsotn"
+    },
+    "coords": "40°14′N  44°18′E",
+    "altitude": { "hy": "1340 մ", "ru": "1340 м", "en": "1,340 m" },
+    "season": { "hy": "Մայիս — Հոկտեմբեր", "ru": "Май — Октябрь", "en": "May — October" },
+    "hours": "09:00 — 23:00",
+    "phone": "+374 10 44 18 02",
+    "email": "table@hortus.garden",
+    "address": {
+      "hy": "Քասաղի կիրճի ճանապարհ 7\nՎոսկեվազ, Արագածոտն\nՀայաստան",
+      "ru": "Дорога ущелья Касах, 7\nВоскеваз, Арагацотн\nАрмения",
+      "en": "7 Kasagh Gorge Road\nVoskevaz, Aragatsotn\nArmenia"
+    }
+  },
+
+  "nav": {
+    "items": [
+      { "id": "water", "label": { "hy": "Ջուրը", "ru": "Вода", "en": "The Water" } },
+      { "id": "garden", "label": { "hy": "Այգին", "ru": "Сад", "en": "The Garden" } },
+      { "id": "gallery", "label": { "hy": "Պատկերասրահ", "ru": "Галерея", "en": "Gallery" } },
+      { "id": "visit", "label": { "hy": "Այցելություն", "ru": "Визит", "en": "Visit" } }
+    ],
+    "reserve": { "hy": "Ամրագրել", "ru": "Бронь", "en": "Reserve" }
+  },
+
+  "hero": {
+    "title": {
+      "hy": "Ջուր՝\nպահված\n*այգում*",
+      "ru": "Вода,\nукрытая\nв *саду*",
+      "en": "Water\nkept in a\n*garden*"
+    },
+    "image": {
+      "src": "https://images.unsplash.com/photo-1601325059290-eac581b71510",
+      "alt": {
+        "hy": "Արևի լույսը բեկվում է լողավազանի ալիքավոր մակերեսին",
+        "ru": "Солнечный свет преломляется в ряби бассейна",
+        "en": "Sunlight refracting across the rippled surface of a pool"
+      }
+    },
+    "plate": {
+      "src": "https://images.unsplash.com/photo-1581812232912-974fb3d04475",
+      "alt": {
+        "hy": "Մարդու և արմավենու տերևի ստվերը կրաշաղախ պատին",
+        "ru": "Тень человека и пальмового листа на побелённой стене",
+        "en": "The shadow of a person and a palm frond on a lime-washed wall"
+      }
+    },
+    "plateTime": "16:40",
+    "plateCaption": { "hy": "արևմտյան պատ, օգոստոս", "ru": "западная стена, август", "en": "west wall, August" },
+    "waterTemp": "27°",
+    "seal": { "hy": "Ամրագրել օր", "ru": "Забронировать день", "en": "Reserve a day" }
+  },
+
+  "water": {
+    "label": { "hy": "Ջուրը", "ru": "Вода", "en": "The Water" },
+    "aside": {
+      "hy": "Աղբյուրի ջուր · միշտ 27°",
+      "ru": "Родниковая вода · всегда 27°",
+      "en": "Spring-fed · held at 27°"
+    },
+    "title": {
+      "hy": "Երեսունչորս մետր՝\nառանց *լողուղիների*",
+      "ru": "Тридцать четыре метра\nи ни одной *дорожки*",
+      "en": "Thirty-four metres,\nno *lane ropes*"
+    },
+    "image": {
+      "src": "https://images.unsplash.com/photo-1678902177251-7ec8fea483a3",
+      "alt": {
+        "hy": "Երկար լողավազան դարավանդավոր այգում, մի կողմում՝ նոճիներ",
+        "ru": "Длинный бассейн в террасном саду, вдоль одной стороны — кипарисы",
+        "en": "A long pool cut into a terraced garden, cypresses standing along one side"
+      }
+    },
+    "hint": { "hy": "Շարժեք կուրսորը ջրի վրայով", "ru": "Проведите по воде", "en": "Move across the surface" },
+    "lead": {
+      "hy": "Ջուրը բազալտից դուրս է գալիս տասնմեկ աստիճանով․ այն տաքացվում է, զտվում խճի միջով և պահվում քսանյոթ աստիճանում՝ մայիսի առաջին առավոտից մինչև հոկտեմբերին դարպասի փակվելը։",
+      "ru": "Вода выходит из базальта при одиннадцати градусах; её подогревают, фильтруют через гравий и держат на двадцати семи — с первого майского утра до того дня в октябре, когда закрываются ворота.",
+      "en": "The water comes out of the basalt at eleven degrees and is warmed, filtered through gravel, and held at twenty-seven from the first morning of May until the gate closes in October."
+    },
+    "body": {
+      "hy": "Ծանծաղ եզրին խորությունը 1,1 մ է, ցատկի քարի մոտ՝ 2,4 մ։ Ոչինչ պարանով առանձնացված չէ։ Լողացեք ողջ երկարությամբ կամ նստեք արևմտյան ծայրի աստիճանին, որտեղ արևը մնում է մինչև ժամը ինը։",
+      "ru": "У мелкого края — 1,1 м, у камня для прыжков — 2,4 м. Ничего не огорожено. Проплывите всю длину или сядьте на ступень в западном конце, где солнце держится до девяти.",
+      "en": "It reads 1.1 m at the shallow shelf and 2.4 m at the diving stone. Nothing is roped off. Swim the length of it, or sit on the step at the western end where the sun holds until nine."
+    },
+    "stats": [
+      {
+        "value": "34",
+        "unit": { "hy": "մ", "ru": "м", "en": "m" },
+        "label": { "hy": "Լողավազանի երկարությունը", "ru": "Длина бассейна от края до края", "en": "Pool length, end to end" }
+      },
+      {
+        "value": "27",
+        "unit": { "hy": "°", "ru": "°", "en": "°" },
+        "label": { "hy": "Ողջ սեզոնի ընթացքում", "ru": "Весь сезон, родниковая вода", "en": "Held all season, spring-fed" }
+      },
+      {
+        "value": "2.4",
+        "unit": { "hy": "մ", "ru": "м", "en": "m" },
+        "label": { "hy": "Ցատկի քարի մոտ", "ru": "У камня для прыжков", "en": "At the diving stone" }
+      },
+      {
+        "value": "90",
+        "unit": { "hy": "", "ru": "", "en": "" },
+        "label": { "hy": "Հյուր օրական։ Ոչ ավելի։", "ru": "Гостей в день. Не больше.", "en": "Guests a day. Never more." }
+      }
+    ]
+  },
+
+  "garden": {
+    "label": { "hy": "Այգին", "ru": "Сад", "en": "The Garden" },
+    "aside": { "hy": "Չորս դարավանդ · 1,8 հեկտար", "ru": "Четыре террасы · 1,8 гектара", "en": "Four terraces · 1.8 hectares" },
+    "title": {
+      "hy": "Չորս հարյուր ծառ։\nՏասնմեկը ավելի հին են,\nքան *ճանապարհը։*",
+      "ru": "Четыреста деревьев.\nОдиннадцать из них старше\n*дороги.*",
+      "en": "Four hundred trees.\nEleven of them older\nthan the *road.*"
+    },
+    "imageBack": {
+      "src": "https://images.unsplash.com/photo-1786426119309-05b1963f11f9",
+      "alt": {
+        "hy": "Հովանոցաձև սոճիներ՝ խուզված ցանկապատի վերևում",
+        "ru": "Зонтичные сосны над стриженой изгородью",
+        "en": "Umbrella pines above a clipped hedge"
+      }
+    },
+    "imageMid": {
+      "src": "https://images.unsplash.com/photo-1745057305694-dce726cfcf37",
+      "alt": {
+        "hy": "Նոճիների միջով բարձրացող արահետ",
+        "ru": "Тропа, поднимающаяся между кипарисами",
+        "en": "A gravel path climbing between cypress trees"
+      }
+    },
+    "imageMidCaption": { "hy": "Նոճիների ծառուղին", "ru": "Кипарисовая аллея", "en": "The cypress walk" },
+    "imageMidMeta": { "hy": "տնկված 1974-ին", "ru": "посажена в 1974-м", "en": "planted 1974" },
+    "imageFront": {
+      "src": "https://images.unsplash.com/photo-1767350903634-310178c73201",
+      "alt": {
+        "hy": "Հին քարե աստիճաններ դարավանդավոր այգում",
+        "ru": "Старые каменные ступени в террасном саду",
+        "en": "Old stone steps rising through a terraced garden"
+      }
+    },
+    "body": {
+      "hy": "Դարավանդները հարյուր տարի առաջ կտրվել են ծիրանենիների համար և երբեք չեն հարթեցվել։ Աստիճանները թողել ենք ծուռ։ Օրվա ընթացքում ստվերը շարժվում է նրանց վրայով, և այգին երբեք նույնը չի լինում․ կեսօրին բոլորը թթենիների տակ են, իսկ ժամը վեցին միայն հեռավոր պատն է դեռ տաք։",
+      "ru": "Террасы сто лет назад вырезали под абрикосы и так и не выровняли. Кривые ступени мы оставили. Тень весь день ходит по ним, и сад ни разу не бывает одним и тем же местом: в полдень все под шелковицами, к шести тёплой остаётся только дальняя стена.",
+      "en": "The terraces were cut for apricots a hundred years ago and never levelled. We kept the steps crooked. Shade moves across them through the day, so the garden is never the same place twice — at noon everyone is under the mulberries, by six the far wall is the only warm thing left."
+    },
+    "tag": {
+      "hy": "Ջրվում է ժամը 05:00-ին՝ լողավազանի նույն աղբյուրից",
+      "ru": "Полив в 05:00 из того же родника, что и бассейн",
+      "en": "Watered at 05:00 from the same spring as the pool"
+    },
+    "species": [
+      { "hy": "Թզենի", "ru": "Инжир", "en": "Fig" },
+      { "hy": "Թթենի", "ru": "Шелковица", "en": "Mulberry" },
+      { "hy": "Նշենի", "ru": "Миндаль", "en": "Almond" },
+      { "hy": "Նոճի", "ru": "Кипарис", "en": "Cypress" },
+      { "hy": "Նռնենի", "ru": "Гранат", "en": "Pomegranate" },
+      { "hy": "Վայրի տանձենի", "ru": "Дикая груша", "en": "Wild pear" },
+      { "hy": "Ռոզմարին", "ru": "Розмарин", "en": "Rosemary" },
+      { "hy": "Դափնի", "ru": "Лавр", "en": "Bay" }
+    ]
+  },
+
+  "gallery": {
+    "label": { "hy": "Ներսից", "ru": "Изнутри", "en": "Seen from inside" },
+    "aside": { "hy": "{n} կադր, ամառ", "ru": "{n} кадров, лето", "en": "{n} frames, summer" },
+    "items": [
+      {
+        "image": {
+          "src": "https://images.unsplash.com/photo-1601325059290-eac581b71510",
+          "alt": { "hy": "Արևի լույսը լողավազանի ալիքավոր մակերեսին", "ru": "Солнечный свет в ряби бассейна", "en": "Sunlight refracting across the rippled surface of a pool" }
+        },
+        "ratio": "4 / 5",
+        "caption": { "hy": "Կեսօր, արևմտյան ծայր", "ru": "Полдень, западный край", "en": "Noon, west end" }
+      },
+      {
+        "image": {
+          "src": "https://images.unsplash.com/photo-1581812232912-974fb3d04475",
+          "alt": { "hy": "Մարդու և արմավենու տերևի ստվերը պատին", "ru": "Тень человека и пальмового листа на стене", "en": "The shadow of a person and a palm frond on a wall" }
+        },
+        "ratio": "3 / 4",
+        "caption": { "hy": "Հանդերձարանի պատը", "ru": "Стена раздевалки", "en": "Wall of the changing house" }
+      },
+      {
+        "image": {
+          "src": "https://images.unsplash.com/photo-1767350903634-310178c73201",
+          "alt": { "hy": "Քարե աստիճաններ այգում", "ru": "Каменные ступени в саду", "en": "Old stone steps rising through a terraced garden" }
+        },
+        "ratio": "4 / 5",
+        "caption": { "hy": "Աստիճաններ դեպի վերին դարավանդ", "ru": "Ступени к верхней террасе", "en": "Steps to the upper terrace" }
+      },
+      {
+        "image": {
+          "src": "https://images.unsplash.com/photo-1780149487610-e4e3a5178df8",
+          "alt": { "hy": "Ծալված սրբիչ լողավազանի քարե եզրին", "ru": "Сложенное полотенце на каменном бортике бассейна", "en": "A folded towel on the stone coping at the edge of the pool" }
+        },
+        "ratio": "1 / 1",
+        "caption": { "hy": "Եզրաքար, հարավային կողմ", "ru": "Бортовой камень, южная сторона", "en": "Coping stone, south side" }
+      },
+      {
+        "image": {
+          "src": "https://images.unsplash.com/photo-1767617577939-690ed39cd160",
+          "alt": { "hy": "Երկար սեղան՝ ծառերի տակ", "ru": "Длинный стол под деревьями", "en": "A long table and chairs set out under the trees" }
+        },
+        "ratio": "3 / 2",
+        "caption": { "hy": "Երկրորդ նստաշրջան", "ru": "Вторая посадка", "en": "Second sitting" }
+      },
+      {
+        "image": {
+          "src": "https://images.unsplash.com/photo-1615395886318-dc65e4517132",
+          "alt": { "hy": "Երկար տերևներ պատի մոտ", "ru": "Длинные листья у стены", "en": "Long leaves leaning against a plastered wall" }
+        },
+        "ratio": "4 / 5",
+        "caption": { "hy": "Պոմպակայանի հետևում", "ru": "За насосной", "en": "Behind the pump house" }
+      },
+      {
+        "image": {
+          "src": "https://images.unsplash.com/photo-1714572878219-d0d72a11e998",
+          "alt": { "hy": "Լողավազանը մթնշաղին", "ru": "Бассейн в сумерках", "en": "A pool at dusk lit by lanterns along its edge" }
+        },
+        "ratio": "3 / 2",
+        "caption": { "hy": "19:52, լապտերները մարում են", "ru": "19:52, фонари гаснут", "en": "19:52, lanterns going out" }
+      },
+      {
+        "image": {
+          "src": "https://images.unsplash.com/photo-1760116726136-faaa9b4f3805",
+          "alt": { "hy": "Միայնակ աթոռ կոպիտ պատի մոտ", "ru": "Одинокий стул у шероховатой стены", "en": "A single chair against a rough rendered wall" }
+        },
+        "ratio": "4 / 5",
+        "caption": { "hy": "Լուռ անկյունը", "ru": "Тихий угол", "en": "The quiet corner" }
+      },
+      {
+        "image": {
+          "src": "https://images.unsplash.com/photo-1600061945751-15ee10b39860",
+          "alt": { "hy": "Սաղարթի ստվերներ տերակոտե պատին", "ru": "Тени листвы на терракотовой стене", "en": "Foliage shadows on a terracotta wall at midday" }
+        },
+        "ratio": "1 / 1",
+        "caption": { "hy": "Տերակոտա, հուլիս", "ru": "Терракота, июль", "en": "Terracotta, July" }
+      },
+      {
+        "image": {
+          "src": "https://images.unsplash.com/photo-1745057305694-dce726cfcf37",
+          "alt": { "hy": "Արահետ նոճիների միջով", "ru": "Тропа между кипарисами", "en": "A gravel path climbing between cypress trees" }
+        },
+        "ratio": "3 / 4",
+        "caption": { "hy": "Նոճիների ծառուղին", "ru": "Кипарисовая аллея", "en": "The cypress walk" }
+      },
+      {
+        "image": {
+          "src": "https://images.unsplash.com/photo-1712299969095-61e353942f88",
+          "alt": { "hy": "Թափանցիկ ջուր սալիկապատ հատակի վրա", "ru": "Прозрачная вода над плиточным дном", "en": "Clear water moving over a tiled floor" }
+        },
+        "ratio": "4 / 5",
+        "caption": { "hy": "Ծանծաղ եզրը", "ru": "Мелководье", "en": "Shallow shelf" }
+      },
+      {
+        "image": {
+          "src": "https://images.unsplash.com/photo-1771303722366-aa2d58fc61a5",
+          "alt": { "hy": "Թիկից պառկելաթոռ՝ սպիտակ կտավով", "ru": "Шезлонг из тика с белым холстом", "en": "A teak deck chair with white canvas" }
+        },
+        "ratio": "1 / 1",
+        "caption": { "hy": "Աթոռ № 14", "ru": "Стул № 14", "en": "Chair no. 14" }
+      }
+    ]
+  },
+
+  "visit": {
+    "label": { "hy": "Այցելություն", "ru": "Визит", "en": "Visit" },
+    "title": {
+      "hy": "Եկեք մեկ օրով։\nՄնացեք մինչև *լապտերները։*",
+      "ru": "Приезжайте на день.\nОставайтесь до *фонарей.*",
+      "en": "Come for the day.\nStay until the *lanterns.*"
+    },
+    "image": {
+      "src": "https://images.unsplash.com/photo-1657568916069-dd3b35a1b9ba",
+      "alt": {
+        "hy": "Լույսերի շարաններ՝ երեկոյան հանդարտ ջրի վերևում",
+        "ru": "Гирлянды огней над тихой водой вечером",
+        "en": "Festoon lights strung above still water in the evening"
+      }
+    },
+    "form": {
+      "name": { "hy": "Անուն", "ru": "Имя", "en": "Name" },
+      "namePlaceholder": { "hy": "Ով է գալիս", "ru": "Кто приедет", "en": "Who is coming" },
+      "date": { "hy": "Ամսաթիվ", "ru": "Дата", "en": "Date" },
+      "party": { "hy": "Հյուրեր", "ru": "Гостей", "en": "Party" },
+      "email": { "hy": "Էլ. փոստ", "ru": "Почта", "en": "Email" },
+      "submit": { "hy": "Հայցել օր", "ru": "Запросить день", "en": "Request a day" },
+      "fineprint": {
+        "hy": "Ամրագրումները բացվում են յուրաքանչյուր ամսի մեկին՝ հաջորդ ամսվա համար։",
+        "ru": "Бронирование открывается первого числа каждого месяца на следующий месяц.",
+        "en": "Reservations open on the first of each month for the month following."
+      }
+    },
+    "sent": {
+      "title": { "hy": "Հայտը ստացված է։", "ru": "Заявка получена.", "en": "Request received." },
+      "body": {
+        "hy": "Յուրաքանչյուր հայտի պատասխանում ենք անձամբ, սովորաբար մեկ օրվա ընթացքում։ Եթե ամսաթիվն արդեն զբաղված է, կառաջարկենք դրան ամենամոտ երկու օրը։",
+        "ru": "Мы отвечаем на каждую заявку лично, обычно в течение дня. Если дата уже занята, предложим две ближайшие.",
+        "en": "We answer every request by hand, usually within a day. If the date is already full we will offer you the two closest to it."
+      },
+      "again": { "hy": "Ուղարկել ևս մեկը", "ru": "Отправить ещё", "en": "Send another" }
+    },
+    "where": { "hy": "Որտեղ", "ru": "Где", "en": "Where" },
+    "hoursLabel": { "hy": "Ժամեր", "ru": "Часы", "en": "Hours" },
+    "hoursNote": {
+      "hy": "Առաջին լող 06:30 · Լապտերներ 19:40",
+      "ru": "Первый заплыв 06:30 · Фонари 19:40",
+      "en": "First swim 06:30 · Lanterns 19:40"
+    },
+    "speak": { "hy": "Կապ մեզ հետ", "ru": "Связаться", "en": "Speak to someone" }
+  },
+
+  "footer": {
+    "blurb": {
+      "hy": "Մասնավոր լողավազան-այգի Քասաղի կիրճի վերևում։ Օրական իննսուն հյուր՝ մայիսի առաջին առավոտից մինչև հոկտեմբերի վերջին լապտերը։",
+      "ru": "Частный сад с бассейном над ущельем Касах. Девяносто гостей в день — с первого майского утра до последнего фонаря в октябре.",
+      "en": "A private pool garden above the Kasagh gorge. Ninety guests a day, from the first morning of May until the last lantern in October."
+    },
+    "gardenLabel": { "hy": "Այգին", "ru": "Сад", "en": "The garden" },
+    "sectionsLabel": { "hy": "Բաժիններ", "ru": "Разделы", "en": "Sections" },
+    "elsewhereLabel": { "hy": "Այլուր", "ru": "Мы в сети", "en": "Elsewhere" },
+    "reachLabel": { "hy": "Կապ", "ru": "Контакты", "en": "Reach us" },
+    "links": [
+      { "label": { "hy": "Instagram", "ru": "Instagram", "en": "Instagram" }, "href": "https://instagram.com" },
+      { "label": { "hy": "Օրագիր", "ru": "Журнал", "en": "Journal" }, "href": "#atmosphere" },
+      { "label": { "hy": "Մասնավոր միջոցառումներ", "ru": "Частные мероприятия", "en": "Private hire" }, "href": "#visit" },
+      { "label": { "hy": "Մամուլի համար", "ru": "Для прессы", "en": "Press kit" }, "href": "#visit" }
+    ],
+    "back": { "hy": "Վերադառնալ ջրին ↑", "ru": "Обратно к воде ↑", "en": "Back to the water ↑" }
+  },
+
+  "ui": {
+    "skip": { "hy": "Անցնել բովանդակությանը", "ru": "Перейти к содержанию", "en": "Skip to content" },
+    "est": { "hy": "Հիմն.", "ru": "Осн.", "en": "Est." },
+    "local": { "hy": "տեղական", "ru": "местное", "en": "local" },
+    "water": { "hy": "ջուր", "ru": "вода", "en": "water" },
+    "scroll": { "hy": "Թերթել", "ru": "Листайте", "en": "Scroll" },
+    "menuOpen": { "hy": "Բացել ընտրացանկը", "ru": "Открыть меню", "en": "Open menu" },
+    "menuClose": { "hy": "Փակել ընտրացանկը", "ru": "Закрыть меню", "en": "Close menu" },
+    "prev": { "hy": "Նախորդ", "ru": "Назад", "en": "Prev" },
+    "next": { "hy": "Հաջորդ", "ru": "Далее", "en": "Next" },
+    "close": { "hy": "Փակել", "ru": "Закрыть", "en": "Close" },
+    "view": { "hy": "Դիտել", "ru": "Смотреть", "en": "View" },
+    "touch": { "hy": "Դիպչել", "ru": "Коснуться", "en": "Touch" },
+    "send": { "hy": "Ուղարկել", "ru": "Отправить", "en": "Send" },
+    "language": { "hy": "Լեզու", "ru": "Язык", "en": "Language" }
+  }
+}

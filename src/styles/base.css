@@ -1,0 +1,461 @@
+/* ------------------------------------------------------------------
+   HORTUS — Pool Garden
+   Design tokens, reset, typographic system, shared primitives.
+   ------------------------------------------------------------------ */
+
+:root {
+  /* Surfaces — warm limestone paper against a wet green-black */
+  --ink: #0e1310;
+  --ink-soft: #18211b;
+  --ink-veil: rgba(14, 19, 16, 0.62);
+  --bone: #f1ece2;
+  --bone-dim: #e4ddce;
+  --stone: #c6bca9;
+
+  /* Water */
+  --pool-deep: #1e453f;
+  --pool: #2f5d57;
+  --pool-mid: #4f8079;
+  --foam: #a9c2b2;
+
+  /* Sun & soil */
+  --sun: #d9a05b;
+  --clay: #ad5f3b;
+  --olive: #6d7a52;
+
+  /* Semantic */
+  --page-bg: var(--bone);
+  --page-fg: var(--ink);
+  --rule: color-mix(in srgb, var(--ink) 18%, transparent);
+  --rule-invert: color-mix(in srgb, var(--bone) 22%, transparent);
+
+  /* Type — the Instrument/DM faces carry Latin only. Armenian and Cyrillic
+     glyphs fall through, glyph by glyph, to Noto faces cut narrow to sit
+     beside them (see the :lang rules below). */
+  --serif: 'Instrument Serif', 'Noto Serif Armenian', 'Noto Serif Display', 'Times New Roman', serif;
+  --sans: 'Instrument Sans', 'Noto Sans Armenian', 'Noto Sans', 'Helvetica Neue', Arial, sans-serif;
+  --mono: 'DM Mono', 'Noto Sans Mono', 'Noto Sans Armenian', ui-monospace, monospace;
+
+  /* Space & measure */
+  --gutter: clamp(18px, 4vw, 56px);
+  --maxw: 1600px;
+  --section-y: clamp(96px, 14vh, 200px);
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-inout: cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--page-bg);
+  color: var(--page-fg);
+}
+
+body {
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.5;
+  font-synthesis-weight: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: clip;
+}
+
+body.is-locked {
+  overflow: hidden;
+  height: 100vh;
+}
+
+img,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+::selection {
+  background: var(--pool);
+  color: var(--bone);
+}
+
+:focus-visible {
+  outline: 1.5px solid currentColor;
+  outline-offset: 4px;
+}
+
+/* ---------------------------------------------- scrollbar (desktop) */
+@media (pointer: fine) {
+  ::-webkit-scrollbar {
+    width: 9px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--bone-dim);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: color-mix(in srgb, var(--pool) 60%, var(--bone));
+  }
+}
+
+/* ------------------------------------------------------- typography */
+
+.display {
+  font-family: var(--serif);
+  font-weight: 400;
+  line-height: 0.92;
+  letter-spacing: -0.022em;
+  text-wrap: balance;
+}
+
+.display em {
+  font-style: italic;
+  letter-spacing: -0.01em;
+}
+
+.d-xl {
+  font-size: clamp(3.3rem, 12.2vw, 12.5rem);
+}
+.d-lg {
+  font-size: clamp(2.7rem, 8.4vw, 8rem);
+}
+.d-md {
+  font-size: clamp(2.1rem, 5.2vw, 4.4rem);
+}
+.d-sm {
+  font-size: clamp(1.6rem, 3vw, 2.6rem);
+  line-height: 1.02;
+}
+
+.label {
+  font-family: var(--mono);
+  font-size: clamp(0.62rem, 0.78vw, 0.74rem);
+  font-weight: 400;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.label--muted {
+  color: color-mix(in srgb, currentColor 58%, transparent);
+}
+
+.body-lg {
+  font-size: clamp(1.02rem, 1.35vw, 1.28rem);
+  line-height: 1.52;
+  letter-spacing: -0.008em;
+}
+
+.body {
+  font-size: clamp(0.95rem, 1.05vw, 1.05rem);
+  line-height: 1.62;
+  color: color-mix(in srgb, currentColor 78%, transparent);
+}
+
+.measure {
+  max-width: 34ch;
+}
+.measure-wide {
+  max-width: 46ch;
+}
+
+/* ------------------------------------------------------------ layout */
+
+.shell {
+  width: 100%;
+  max-width: var(--maxw);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.grid12 {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: clamp(12px, 1.6vw, 26px);
+}
+
+@media (max-width: 860px) {
+  .grid12 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+
+.section {
+  position: relative;
+  padding-block: var(--section-y);
+}
+
+.section--dark {
+  background: var(--ink);
+  color: var(--bone);
+  --rule: var(--rule-invert);
+}
+
+/* A hairline that draws itself in on scroll */
+.rule {
+  height: 1px;
+  width: 100%;
+  background: var(--rule);
+  transform-origin: left center;
+}
+
+/* --------------------------------------------------- section heading */
+
+.sec-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-bottom: 1.15rem;
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: clamp(2.5rem, 6vw, 5.5rem);
+}
+
+.sec-head__index {
+  white-space: nowrap;
+}
+
+/* ------------------------------------------------------ reveal prims */
+
+[data-reveal],
+[data-reveal-stagger] > * {
+  will-change: transform, opacity;
+}
+
+/* --------------------------------------------------- per-language set */
+
+/* Instrument Serif is a condensed face; the Noto fallbacks are narrowed on
+   their width axis so Armenian and Cyrillic headlines keep the same colour. */
+:lang(hy) .display,
+:lang(ru) .display,
+:lang(hy) .nav__mark,
+:lang(ru) .nav__mark {
+  font-stretch: 72%;
+  font-weight: 350;
+}
+
+/* both scripts need a touch more leading than Latin display type */
+:lang(hy) .display {
+  line-height: 1.04;
+  letter-spacing: -0.012em;
+}
+
+:lang(ru) .display {
+  line-height: 0.98;
+  letter-spacing: -0.015em;
+}
+
+/* Armenian has no true italic in this family; the accent is carried by
+   colour alone rather than a synthesised slant */
+:lang(hy) .display em {
+  font-style: normal;
+}
+
+/* long Armenian and Russian words: tighten the tracking on uppercase labels */
+:lang(hy) .label,
+:lang(ru) .label {
+  letter-spacing: 0.1em;
+}
+
+/* word masks produced by splitWords() */
+.w-mask {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  padding-bottom: 0.16em;
+  margin-bottom: -0.16em;
+}
+
+.w-in {
+  display: inline-block;
+  will-change: transform;
+}
+
+/* --------------------------------------------------------- figure ui */
+
+.figure {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(150deg, var(--bone-dim), color-mix(in srgb, var(--pool) 22%, var(--bone-dim)));
+}
+
+.figure--dark {
+  background: linear-gradient(150deg, var(--ink-soft), var(--pool-deep));
+}
+
+.figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1.1s var(--ease-out);
+}
+
+.figure img.is-loaded {
+  opacity: 1;
+}
+
+.figure__cap {
+  margin-top: 0.85rem;
+  display: flex;
+  gap: 0.75rem;
+  color: color-mix(in srgb, currentColor 55%, transparent);
+}
+
+/* --------------------------------------------------------- ink link */
+
+.ilink {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7em;
+  padding-block: 0.35em;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.ilink::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  transform-origin: right center;
+  transform: scaleX(1);
+  transition: transform 0.55s var(--ease-inout);
+}
+
+.ilink:hover::after {
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+
+.ilink__arrow {
+  transition: transform 0.55s var(--ease-out);
+}
+
+.ilink:hover .ilink__arrow {
+  transform: translateX(0.35em);
+}
+
+/* ---------------------------------------------------------- utility */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* held while the content document loads — same ink as the preloader */
+.boot {
+  position: fixed;
+  inset: 0;
+  background: var(--ink);
+}
+
+.boot--light {
+  background: var(--bone);
+}
+
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 200;
+  transform: translateY(-160%);
+  background: var(--ink);
+  color: var(--bone);
+  padding: 0.7rem 1.1rem;
+  border-radius: 2px;
+}
+
+.skip-link:focus-visible {
+  transform: translateY(0);
+}
+
+/* Film grain + vignette shared by dark cinematic blocks */
+.grain::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.22;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

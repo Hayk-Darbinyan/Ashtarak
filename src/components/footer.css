@@ -1,0 +1,139 @@
+.foot {
+  background: var(--ink);
+  color: var(--bone);
+  --rule: var(--rule-invert);
+  padding-top: clamp(3.5rem, 8vw, 7rem);
+  padding-bottom: clamp(1.2rem, 3vw, 2rem);
+  overflow: clip;
+}
+
+.foot__top {
+  row-gap: clamp(2.2rem, 5vw, 3rem);
+  padding-bottom: clamp(3rem, 8vw, 6rem);
+}
+
+.foot__col {
+  grid-column: span 3;
+  display: grid;
+  gap: 0.9rem;
+  align-content: start;
+}
+
+.foot__col--wide {
+  grid-column: span 3;
+}
+
+@media (max-width: 860px) {
+  .foot__col {
+    grid-column: span 3;
+  }
+  .foot__col--wide {
+    grid-column: span 6;
+  }
+}
+
+.foot__blurb {
+  max-width: 30ch;
+  font-family: var(--serif);
+  font-size: clamp(1.05rem, 1.4vw, 1.3rem);
+  line-height: 1.32;
+  color: color-mix(in srgb, var(--bone) 82%, transparent);
+}
+
+.foot__col ul {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.foot__link {
+  position: relative;
+  display: inline-block;
+  font-size: 0.95rem;
+  color: color-mix(in srgb, var(--bone) 78%, transparent);
+  transition: color 0.4s var(--ease-out), transform 0.5s var(--ease-out);
+}
+
+.foot__link:hover {
+  color: var(--bone);
+  transform: translateX(0.3rem);
+}
+
+.foot__muted {
+  font-size: 0.95rem;
+  color: color-mix(in srgb, var(--bone) 45%, transparent);
+}
+
+/* ---------------------------------------------------------- wordmark */
+
+.foot__markwrap {
+  border-top: 1px solid var(--rule-invert);
+  padding-top: clamp(1rem, 2.5vw, 2rem);
+}
+
+.foot__mark {
+  display: flex;
+  justify-content: space-between;
+  font-size: clamp(3.4rem, 17.2vw, 16rem);
+  line-height: 0.82;
+  letter-spacing: -0.01em;
+  margin: 0;
+  color: color-mix(in srgb, var(--bone) 92%, transparent);
+}
+
+.foot__mark-l {
+  display: inline-block;
+  transition: transform 0.7s var(--ease-out), color 0.5s var(--ease-out);
+}
+
+.foot__mark:hover .foot__mark-l {
+  color: color-mix(in srgb, var(--foam) 70%, var(--bone));
+}
+
+.foot__mark-l:hover {
+  transform: translateY(-0.06em);
+}
+
+/* -------------------------------------------------------------- base */
+
+.foot__base {
+  margin-top: clamp(1.4rem, 3vw, 2.4rem);
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule-invert);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.foot__base-mid {
+  display: none;
+}
+
+@media (min-width: 720px) {
+  .foot__base-mid {
+    display: inline;
+  }
+}
+
+.foot__top-link {
+  position: relative;
+  padding-bottom: 2px;
+}
+
+.foot__top-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  transform-origin: right center;
+  transition: transform 0.5s var(--ease-inout);
+}
+
+.foot__top-link:hover::after {
+  transform: scaleX(0);
+  transform-origin: left center;
+}

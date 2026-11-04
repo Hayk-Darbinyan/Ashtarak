@@ -1,0 +1,68 @@
+.pre {
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  pointer-events: none;
+}
+
+.pre__slat {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: calc(100% / 3 + 1px);
+  background: var(--ink);
+}
+
+.pre__slat:nth-child(1) {
+  left: 0;
+}
+.pre__slat:nth-child(2) {
+  left: calc(100% / 3);
+}
+.pre__slat:nth-child(3) {
+  left: calc(200% / 3);
+}
+
+.pre__inner {
+  position: absolute;
+  inset: 0;
+  color: var(--bone);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--gutter);
+  padding-bottom: clamp(24px, 5vh, 54px);
+}
+
+.pre__brand {
+  letter-spacing: 0.02em;
+  margin-bottom: auto;
+  padding-top: clamp(20vh, 34vh, 40vh);
+}
+
+.pre__foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+  margin-bottom: 0.9rem;
+}
+
+.pre__count {
+  font-variant-numeric: tabular-nums;
+}
+
+.pre__rule {
+  position: relative;
+  height: 1px;
+  background: color-mix(in srgb, var(--bone) 20%, transparent);
+  overflow: hidden;
+}
+
+.pre__rule-fill {
+  position: absolute;
+  inset: 0;
+  background: var(--bone);
+  transform-origin: left center;
+  transform: scaleX(0);
+}

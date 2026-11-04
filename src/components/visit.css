@@ -1,0 +1,253 @@
+.visit {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* the location itself, pushed back behind ink */
+.visit__bed {
+  position: absolute;
+  inset: -12% 0 -12% 0;
+  z-index: 0;
+}
+
+.visit__bed-in {
+  width: 100%;
+  height: 100%;
+}
+
+.visit__bed img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.42) saturate(0.72) contrast(1.05);
+}
+
+.visit::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    linear-gradient(to bottom, rgba(14, 19, 16, 0.94), rgba(14, 19, 16, 0.6) 45%, rgba(14, 19, 16, 0.96)),
+    radial-gradient(90% 60% at 80% 15%, rgba(217, 160, 91, 0.16), transparent 60%);
+}
+
+.visit__inner {
+  position: relative;
+  z-index: 2;
+}
+
+.visit__title {
+  max-width: 16ch;
+  margin-bottom: clamp(3rem, 8vw, 6.5rem);
+}
+
+.visit__title em {
+  color: var(--sun);
+}
+
+.visit__grid {
+  row-gap: clamp(3rem, 7vw, 5rem);
+  align-items: start;
+}
+
+.visit__form-wrap {
+  grid-column: 1 / span 7;
+}
+
+.visit__contact {
+  grid-column: 9 / span 4;
+  font-style: normal;
+  display: grid;
+  gap: clamp(1.6rem, 3vw, 2.4rem);
+}
+
+@media (max-width: 1000px) {
+  .visit__form-wrap,
+  .visit__contact {
+    grid-column: 1 / span 12;
+  }
+}
+
+@media (max-width: 860px) {
+  .visit__form-wrap,
+  .visit__contact {
+    grid-column: 1 / span 6;
+  }
+}
+
+/* ------------------------------------------------------------- form */
+
+.visit__fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1.4rem, 3vw, 2.4rem) clamp(1.4rem, 3vw, 3rem);
+}
+
+@media (max-width: 620px) {
+  .visit__fields {
+    grid-template-columns: 1fr;
+  }
+}
+
+.field {
+  position: relative;
+  display: grid;
+  gap: 0.5rem;
+  margin: 0;
+}
+
+.field__input {
+  appearance: none;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  padding: 0.3rem 0 0.7rem;
+  font-family: var(--serif);
+  font-size: clamp(1.2rem, 2vw, 1.75rem);
+  line-height: 1.2;
+  color: var(--bone);
+  width: 100%;
+}
+
+.field__input::placeholder {
+  color: color-mix(in srgb, var(--bone) 28%, transparent);
+}
+
+.field__input:focus {
+  outline: none;
+}
+
+.field__input::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  opacity: 0.45;
+  cursor: pointer;
+}
+
+.field__rule {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: var(--rule-invert);
+}
+
+.field__rule::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--foam);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.6s var(--ease-inout);
+}
+
+.field__input:focus ~ .field__rule::after,
+.field__input:not(:placeholder-shown) ~ .field__rule::after {
+  transform: scaleX(1);
+}
+
+.visit__actions {
+  margin-top: clamp(2.2rem, 5vw, 3.6rem);
+  display: flex;
+  align-items: center;
+  gap: clamp(1.2rem, 3vw, 2.5rem);
+  flex-wrap: wrap;
+}
+
+.visit__submit {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 1.1rem;
+  padding: 1.05rem 1.6rem;
+  border: 1px solid var(--rule-invert);
+  overflow: hidden;
+  isolation: isolate;
+  color: var(--bone);
+}
+
+.visit__submit::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--bone);
+  transform: translateY(101%);
+  transition: transform 0.55s var(--ease-inout);
+}
+
+.visit__submit:hover::before {
+  transform: translateY(0);
+}
+
+.visit__submit:hover {
+  color: var(--ink);
+  border-color: var(--bone);
+}
+
+.visit__submit-arrow {
+  transition: transform 0.55s var(--ease-out);
+}
+
+.visit__submit:hover .visit__submit-arrow {
+  transform: translateX(0.4em);
+}
+
+.visit__fineprint {
+  max-width: 30ch;
+}
+
+.visit__sent {
+  display: grid;
+  gap: 1.2rem;
+  justify-items: start;
+  max-width: 42ch;
+  padding: clamp(1.6rem, 4vw, 2.6rem) 0;
+  border-top: 1px solid var(--rule-invert);
+  border-bottom: 1px solid var(--rule-invert);
+}
+
+/* ---------------------------------------------------------- contact */
+
+.visit__block {
+  display: grid;
+  gap: 0.4rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--rule-invert);
+}
+
+.visit__line {
+  font-family: var(--serif);
+  font-size: clamp(1.05rem, 1.5vw, 1.35rem);
+  line-height: 1.35;
+}
+
+.visit__coords {
+  margin-top: 0.5rem;
+}
+
+.visit__link {
+  position: relative;
+  width: fit-content;
+}
+
+.visit__link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0.05em;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.35;
+  transform-origin: right center;
+  transition: transform 0.5s var(--ease-inout), opacity 0.5s var(--ease-inout);
+}
+
+.visit__link:hover::after {
+  opacity: 1;
+  transform: scaleX(1);
+}

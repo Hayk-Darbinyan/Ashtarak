@@ -1,0 +1,65 @@
+.cursor {
+  position: fixed;
+  inset: 0;
+  z-index: 250;
+  pointer-events: none;
+  mix-blend-mode: difference;
+}
+
+.cursor__dot,
+.cursor__ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  will-change: transform;
+}
+
+.cursor__dot {
+  width: 6px;
+  height: 6px;
+  background: var(--bone);
+}
+
+.cursor__ring {
+  width: 34px;
+  height: 34px;
+  border: 1px solid color-mix(in srgb, var(--bone) 70%, transparent);
+  display: grid;
+  place-items: center;
+}
+
+.cursor__label {
+  font-family: var(--mono);
+  font-size: 4.2px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--bone);
+  white-space: nowrap;
+}
+
+/* The native pointer steps aside only where ours can follow it — never over
+   form fields, and never for anyone who has asked for less movement. */
+.has-cursor,
+.has-cursor * {
+  cursor: none;
+}
+
+.has-cursor select {
+  cursor: pointer;
+}
+
+.has-cursor input,
+.has-cursor textarea {
+  cursor: text;
+}
+
+@media (pointer: coarse) {
+  .cursor {
+    display: none;
+  }
+  .has-cursor,
+  .has-cursor * {
+    cursor: auto;
+  }
+}
