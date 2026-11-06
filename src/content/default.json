@@ -51,7 +51,7 @@
       "en": "Water\nkept in a\n*garden*"
     },
     "image": {
-      "src": "https://images.unsplash.com/photo-1601325059290-eac581b71510",
+      "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888478/ashta3_kyvmug.jpg",
       "alt": {
         "hy": "Արևի լույսը բեկվում է լողավազանի ալիքավոր մակերեսին",
         "ru": "Солнечный свет преломляется в ряби бассейна",
@@ -59,7 +59,7 @@
       }
     },
     "plate": {
-      "src": "https://images.unsplash.com/photo-1581812232912-974fb3d04475",
+      "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888477/ashta2_ddy5s3.jpg",
       "alt": {
         "hy": "Մարդու և արմավենու տերևի ստվերը կրաշաղախ պատին",
         "ru": "Тень человека и пальмового листа на побелённой стене",
@@ -85,7 +85,7 @@
       "en": "Thirty-four metres,\nno *lane ropes*"
     },
     "image": {
-      "src": "https://images.unsplash.com/photo-1678902177251-7ec8fea483a3",
+      "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888478/ashta1_wzpory.jpg",
       "alt": {
         "hy": "Երկար լողավազան դարավանդավոր այգում, մի կողմում՝ նոճիներ",
         "ru": "Длинный бассейн в террасном саду, вдоль одной стороны — кипарисы",
@@ -136,7 +136,7 @@
       "en": "Four hundred trees.\nEleven of them older\nthan the *road.*"
     },
     "imageBack": {
-      "src": "https://images.unsplash.com/photo-1786426119309-05b1963f11f9",
+      "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888478/asht1_w0io6q.jpg",
       "alt": {
         "hy": "Հովանոցաձև սոճիներ՝ խուզված ցանկապատի վերևում",
         "ru": "Зонтичные сосны над стриженой изгородью",
@@ -144,7 +144,7 @@
       }
     },
     "imageMid": {
-      "src": "https://images.unsplash.com/photo-1745057305694-dce726cfcf37",
+      "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888476/zal1_cuzzkr.jpg",
       "alt": {
         "hy": "Նոճիների միջով բարձրացող արահետ",
         "ru": "Тропа, поднимающаяся между кипарисами",
@@ -154,7 +154,7 @@
     "imageMidCaption": { "hy": "Նոճիների ծառուղին", "ru": "Кипарисовая аллея", "en": "The cypress walk" },
     "imageMidMeta": { "hy": "տնկված 1974-ին", "ru": "посажена в 1974-м", "en": "planted 1974" },
     "imageFront": {
-      "src": "https://images.unsplash.com/photo-1767350903634-310178c73201",
+      "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888477/ashta6_ziys2t.jpg",
       "alt": {
         "hy": "Հին քարե աստիճաններ դարավանդավոր այգում",
         "ru": "Старые каменные ступени в террасном саду",
@@ -197,7 +197,7 @@
       },
       {
         "image": {
-          "src": "https://images.unsplash.com/photo-1581812232912-974fb3d04475",
+          "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888477/ashta2_ddy5s3.jpg",
           "alt": { "hy": "Մարդու և արմավենու տերևի ստվերը պատին", "ru": "Тень человека и пальмового листа на стене", "en": "The shadow of a person and a palm frond on a wall" }
         },
         "ratio": "3 / 4",
@@ -205,7 +205,7 @@
       },
       {
         "image": {
-          "src": "https://images.unsplash.com/photo-1767350903634-310178c73201",
+          "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888477/ashta6_ziys2t.jpg",
           "alt": { "hy": "Քարե աստիճաններ այգում", "ru": "Каменные ступени в саду", "en": "Old stone steps rising through a terraced garden" }
         },
         "ratio": "4 / 5",
@@ -213,7 +213,7 @@
       },
       {
         "image": {
-          "src": "https://images.unsplash.com/photo-1780149487610-e4e3a5178df8",
+          "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888477/asht4_lxxohj.jpg",
           "alt": { "hy": "Ծալված սրբիչ լողավազանի քարե եզրին", "ru": "Сложенное полотенце на каменном бортике бассейна", "en": "A folded towel on the stone coping at the edge of the pool" }
         },
         "ratio": "1 / 1",
@@ -221,7 +221,7 @@
       },
       {
         "image": {
-          "src": "https://images.unsplash.com/photo-1767617577939-690ed39cd160",
+          "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888478/ashta3_kyvmug.jpg",
           "alt": { "hy": "Երկար սեղան՝ ծառերի տակ", "ru": "Длинный стол под деревьями", "en": "A long table and chairs set out under the trees" }
         },
         "ratio": "3 / 2",
@@ -229,7 +229,7 @@
       },
       {
         "image": {
-          "src": "https://images.unsplash.com/photo-1615395886318-dc65e4517132",
+          "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888478/asht1_w0io6q.jpg",
           "alt": { "hy": "Երկար տերևներ պատի մոտ", "ru": "Длинные листья у стены", "en": "Long leaves leaning against a plastered wall" }
         },
         "ratio": "4 / 5",
@@ -237,7 +237,7 @@
       },
       {
         "image": {
-          "src": "https://images.unsplash.com/photo-1714572878219-d0d72a11e998",
+          "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888478/asht2_tiv5sm.jpg",
           "alt": { "hy": "Լողավազանը մթնշաղին", "ru": "Бассейн в сумерках", "en": "A pool at dusk lit by lanterns along its edge" }
         },
         "ratio": "3 / 2",
@@ -245,7 +245,7 @@
       },
       {
         "image": {
-          "src": "https://images.unsplash.com/photo-1760116726136-faaa9b4f3805",
+          "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793972325/night3_ucyakg.jpg",
           "alt": { "hy": "Միայնակ աթոռ կոպիտ պատի մոտ", "ru": "Одинокий стул у шероховатой стены", "en": "A single chair against a rough rendered wall" }
         },
         "ratio": "4 / 5",
@@ -261,7 +261,7 @@
       },
       {
         "image": {
-          "src": "https://images.unsplash.com/photo-1745057305694-dce726cfcf37",
+          "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888476/zal1_cuzzkr.jpg",
           "alt": { "hy": "Արահետ նոճիների միջով", "ru": "Тропа между кипарисами", "en": "A gravel path climbing between cypress trees" }
         },
         "ratio": "3 / 4",
@@ -269,7 +269,7 @@
       },
       {
         "image": {
-          "src": "https://images.unsplash.com/photo-1712299969095-61e353942f88",
+          "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793972349/night2_rtjubq.jpg",
           "alt": { "hy": "Թափանցիկ ջուր սալիկապատ հատակի վրա", "ru": "Прозрачная вода над плиточным дном", "en": "Clear water moving over a tiled floor" }
         },
         "ratio": "4 / 5",
@@ -277,7 +277,7 @@
       },
       {
         "image": {
-          "src": "https://images.unsplash.com/photo-1771303722366-aa2d58fc61a5",
+          "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793972350/night1_mvkfup.jpg",
           "alt": { "hy": "Թիկից պառկելաթոռ՝ սպիտակ կտավով", "ru": "Шезлонг из тика с белым холстом", "en": "A teak deck chair with white canvas" }
         },
         "ratio": "1 / 1",

@@ -24,7 +24,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
-const STORAGE = path.join(ROOT, 'storage')
+const STORAGE = path.resolve(process.env.DATA_DIR || path.join(ROOT, 'storage'))
 const UPLOADS = path.join(STORAGE, 'uploads')
 const BACKUPS = path.join(STORAGE, 'backups')
 const CONTENT = path.join(STORAGE, 'content.json')

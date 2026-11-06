@@ -76,9 +76,17 @@ npm start          # serves the site, /admin, /api and /uploads on $PORT (defaul
 ```
 
 This needs a Node host (a VPS, Render, Railway, Fly…), not static hosting, and
-the `storage/` folder must be on persistent disk — it holds the content,
-uploads, backups and password. Set `HOST=0.0.0.0` if the platform requires it.
-Put it behind HTTPS so the admin password is never sent in the clear.
+the data directory must be on persistent disk — it holds the content, uploads,
+backups and password. Locally this is `storage/`; set `DATA_DIR` to the disk's
+mount path in production. On Render, for example, attach a disk at `/var/data`
+and set `DATA_DIR=/var/data` in the service's environment. Set `HOST=0.0.0.0`
+if the platform requires it. Put it behind HTTPS so the admin password is never
+sent in the clear.
+
+Admin changes made on a local machine are not deployed with the code: `storage/`
+is git-ignored. After configuring the production disk, upload the photos and
+save the content through the deployed site's `/admin` once. Later production
+admin changes will persist across deploys and restarts.
 
 ## Structure
 
