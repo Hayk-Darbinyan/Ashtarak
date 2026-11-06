@@ -189,7 +189,7 @@
     "items": [
       {
         "image": {
-          "src": "https://images.unsplash.com/photo-1601325059290-eac581b71510",
+          "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888478/ashta1_wzpory.jpg",
           "alt": { "hy": "Արևի լույսը լողավազանի ալիքավոր մակերեսին", "ru": "Солнечный свет в ряби бассейна", "en": "Sunlight refracting across the rippled surface of a pool" }
         },
         "ratio": "4 / 5",
@@ -253,7 +253,7 @@
       },
       {
         "image": {
-          "src": "https://images.unsplash.com/photo-1600061945751-15ee10b39860",
+          "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888476/zal1_cuzzkr.jpg",
           "alt": { "hy": "Սաղարթի ստվերներ տերակոտե պատին", "ru": "Тени листвы на терракотовой стене", "en": "Foliage shadows on a terracotta wall at midday" }
         },
         "ratio": "1 / 1",
