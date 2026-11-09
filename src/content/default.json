@@ -1,371 +1,742 @@
 {
   "meta": {
     "title": {
-      "hy": "HORTUS — Լողավազան-այգի",
-      "ru": "HORTUS — Сад с бассейном",
-      "en": "HORTUS — Pool Garden"
+      "hy": "Ashtarak Pool Garden — Հանգստյան գոտի Ագարակում",
+      "ru": "Ashtarak Pool Garden — Зона отдыха в Агараке",
+      "en": "Ashtarak Pool Garden — Day-hire retreat in Agarak"
     },
     "description": {
-      "hy": "HORTUS-ը մասնավոր լողավազան-այգի է Քասաղի կիրճի վերևում․ ջուր, քար և ծառեր՝ լուսաբացից մինչև վերջին լապտերը։",
-      "ru": "HORTUS — частный сад с бассейном над ущельем Касах: вода, камень и деревья от рассвета до последнего фонаря.",
-      "en": "HORTUS is a private pool garden above the Kasagh gorge: water, stone and planting, open from first light until the last lantern."
+      "hy": "Ashtarak Pool Garden-ը օրավարձով տրվող հանգստյան գոտի է Ագարակ գյուղում՝ Երևանից 15 րոպե հեռավորության վրա․ ֆիլտրվող լողավազան, 40 հոգանոց փակ սրահ խոհանոցով, մեծ մանղալ և հանգստյան սենյակ։",
+      "ru": "Ashtarak Pool Garden — зона отдыха посуточно в селе Агарак, в 15 минутах от Еревана: бассейн с фильтрацией, закрытый зал на 40 человек с кухней, большой мангал и комната отдыха.",
+      "en": "Ashtarak Pool Garden is a day-hire retreat in Agarak village, 15 minutes from Yerevan: a filtered pool, an indoor hall for 40 with its own kitchen, a large barbecue and a rest room."
     }
   },
-
   "brand": {
-    "name": "Hortus",
-    "kind": { "hy": "Լողավազան-այգի", "ru": "Сад с бассейном", "en": "Pool Garden" },
+    "name": "Ashtarak Pool Garden",
+    "kind": {
+      "hy": "Հանգստյան գոտի",
+      "ru": "Зона отдыха",
+      "en": "Pool Garden"
+    },
     "since": "MMXIX",
     "place": {
-      "hy": "Քասաղի կիրճ · Արագածոտն",
-      "ru": "Ущелье Касах · Арагацотн",
-      "en": "Kasagh Gorge · Aragatsotn"
+      "hy": "Ագարակ · Աշտարակ",
+      "ru": "Агарак · Аштарак",
+      "en": "Agarak · Ashtarak"
     },
-    "coords": "40°14′N  44°18′E",
-    "altitude": { "hy": "1340 մ", "ru": "1340 м", "en": "1,340 m" },
-    "season": { "hy": "Մայիս — Հոկտեմբեր", "ru": "Май — Октябрь", "en": "May — October" },
-    "hours": "09:00 — 23:00",
-    "phone": "+374 10 44 18 02",
-    "email": "table@hortus.garden",
+    "coords": "40°18′N  44°22′E",
+    "altitude": {
+      "hy": "Երևանից 15 րոպե",
+      "ru": "15 минут от Еревана",
+      "en": "15 min from Yerevan"
+    },
+    "season": {
+      "hy": "Մայիս — Սեպտեմբեր",
+      "ru": "Май — Сентябрь",
+      "en": "May — September"
+    },
+    "hours": "10:00 — 21:00",
+    "phone": "+374 98 316 108",
+    "email": "",
     "address": {
-      "hy": "Քասաղի կիրճի ճանապարհ 7\nՎոսկեվազ, Արագածոտն\nՀայաստան",
-      "ru": "Дорога ущелья Касах, 7\nВоскеваз, Арагацотн\nАрмения",
-      "en": "7 Kasagh Gorge Road\nVoskevaz, Aragatsotn\nArmenia"
+      "hy": "Աշտարակ\nգյուղ Ագարակ",
+      "ru": "Аштарак\nсело Агарак",
+      "en": "Ashtarak\nAgarak village"
     }
   },
-
   "nav": {
     "items": [
-      { "id": "water", "label": { "hy": "Ջուրը", "ru": "Вода", "en": "The Water" } },
-      { "id": "garden", "label": { "hy": "Այգին", "ru": "Сад", "en": "The Garden" } },
-      { "id": "gallery", "label": { "hy": "Պատկերասրահ", "ru": "Галерея", "en": "Gallery" } },
-      { "id": "visit", "label": { "hy": "Այցելություն", "ru": "Визит", "en": "Visit" } }
+      {
+        "id": "water",
+        "label": {
+          "hy": "Բակ, լողավազան",
+          "ru": "Двор и бассейн",
+          "en": "Yard & Pool"
+        }
+      },
+      {
+        "id": "garden",
+        "label": {
+          "hy": "Փակ սրահ",
+          "ru": "Закрытый зал",
+          "en": "Indoor Hall"
+        }
+      },
+      {
+        "id": "gallery",
+        "label": {
+          "hy": "Պատկերասրահ",
+          "ru": "Галерея",
+          "en": "Gallery"
+        }
+      },
+      {
+        "id": "visit",
+        "label": {
+          "hy": "Ամրագրում",
+          "ru": "Бронирование",
+          "en": "Booking"
+        }
+      }
     ],
-    "reserve": { "hy": "Ամրագրել", "ru": "Бронь", "en": "Reserve" }
+    "reserve": {
+      "hy": "Ամրագրել",
+      "ru": "Забронировать",
+      "en": "Book"
+    }
   },
-
   "hero": {
     "title": {
-      "hy": "Ջուր՝\nպահված\n*այգում*",
-      "ru": "Вода,\nукрытая\nв *саду*",
-      "en": "Water\nkept in a\n*garden*"
+      "hy": "Ձեր օրը՝\nմիայն\n*ձեզ համար*",
+      "ru": "Ваш день —\nтолько\n*для вас*",
+      "en": "A day\nthat's only\n*yours*"
     },
     "image": {
       "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888478/ashta3_kyvmug.jpg",
       "alt": {
-        "hy": "Արևի լույսը բեկվում է լողավազանի ալիքավոր մակերեսին",
-        "ru": "Солнечный свет преломляется в ряби бассейна",
-        "en": "Sunlight refracting across the rippled surface of a pool"
+        "hy": "Ashtarak Pool Garden հանգստյան գոտին",
+        "ru": "Зона отдыха Ashtarak Pool Garden",
+        "en": "Ashtarak Pool Garden"
       }
     },
     "plate": {
       "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888477/ashta2_ddy5s3.jpg",
       "alt": {
-        "hy": "Մարդու և արմավենու տերևի ստվերը կրաշաղախ պատին",
-        "ru": "Тень человека и пальмового листа на побелённой стене",
-        "en": "The shadow of a person and a palm frond on a lime-washed wall"
+        "hy": "Հանգստյան գոտու տարածքը",
+        "ru": "Территория зоны отдыха",
+        "en": "The grounds of the retreat"
       }
     },
-    "plateTime": "16:40",
-    "plateCaption": { "hy": "արևմտյան պատ, օգոստոս", "ru": "западная стена, август", "en": "west wall, August" },
-    "waterTemp": "27°",
-    "seal": { "hy": "Ամրագրել օր", "ru": "Забронировать день", "en": "Reserve a day" }
+    "plateTime": "15'",
+    "plateCaption": {
+      "hy": "Երևանից մինչև մեզ",
+      "ru": "от Еревана до нас",
+      "en": "from Yerevan to us"
+    },
+    "waterTemp": "4×8",
+    "seal": {
+      "hy": "Ամրագրել օր",
+      "ru": "Забронировать день",
+      "en": "Book a day"
+    }
   },
-
   "water": {
-    "label": { "hy": "Ջուրը", "ru": "Вода", "en": "The Water" },
+    "label": {
+      "hy": "Բակ, լողավազան",
+      "ru": "Двор и бассейн",
+      "en": "Yard & Pool"
+    },
     "aside": {
-      "hy": "Աղբյուրի ջուր · միշտ 27°",
-      "ru": "Родниковая вода · всегда 27°",
-      "en": "Spring-fed · held at 27°"
+      "hy": "8×4 մ · 165 սմ · ֆիլտրման համակարգ",
+      "ru": "8×4 м · 165 см · фильтрация",
+      "en": "8×4 m · 165 cm · filtered"
     },
     "title": {
-      "hy": "Երեսունչորս մետր՝\nառանց *լողուղիների*",
-      "ru": "Тридцать четыре метра\nи ни одной *дорожки*",
-      "en": "Thirty-four metres,\nno *lane ropes*"
+      "hy": "Մաքուր ջուր,\n*հանգիստ* օր",
+      "ru": "Чистая вода,\n*спокойный* день",
+      "en": "Clean water,\nan *easy* day"
     },
     "image": {
       "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888478/ashta1_wzpory.jpg",
       "alt": {
-        "hy": "Երկար լողավազան դարավանդավոր այգում, մի կողմում՝ նոճիներ",
-        "ru": "Длинный бассейн в террасном саду, вдоль одной стороны — кипарисы",
-        "en": "A long pool cut into a terraced garden, cypresses standing along one side"
+        "hy": "Ֆիլտրվող լողավազանը",
+        "ru": "Бассейн с фильтрацией",
+        "en": "The filtered pool"
       }
     },
-    "hint": { "hy": "Շարժեք կուրսորը ջրի վրայով", "ru": "Проведите по воде", "en": "Move across the surface" },
+    "hint": {
+      "hy": "Շարժեք կուրսորը ջրի վրայով",
+      "ru": "Проведите по воде",
+      "en": "Move across the surface"
+    },
     "lead": {
-      "hy": "Ջուրը բազալտից դուրս է գալիս տասնմեկ աստիճանով․ այն տաքացվում է, զտվում խճի միջով և պահվում քսանյոթ աստիճանում՝ մայիսի առաջին առավոտից մինչև հոկտեմբերին դարպասի փակվելը։",
-      "ru": "Вода выходит из базальта при одиннадцати градусах; её подогревают, фильтруют через гравий и держат на двадцати семи — с первого майского утра до того дня в октябре, когда закрываются ворота.",
-      "en": "The water comes out of the basalt at eleven degrees and is warmed, filtered through gravel, and held at twenty-seven from the first morning of May until the gate closes in October."
+      "hy": "Մեր լողավազանը 8 մ երկարությամբ և 4 մ լայնությամբ է, իսկ խորությունը 165 սմ է։ Այն հագեցած է ֆիլտրման համակարգով, որը ջուրը մշտապես մաքրում է, ուստի ամեն այցելության ժամանակ ձեզ սպասում է մաքուր ու թարմ ջուր։",
+      "ru": "Наш бассейн длиной 8 м и шириной 4 м, глубина — 165 см. Он оснащён системой фильтрации, которая постоянно очищает воду, поэтому при каждом визите вас ждёт чистая и свежая вода.",
+      "en": "Our pool is 8 m long, 4 m wide and 165 cm deep. Its filtration system keeps the water constantly clean, so clear, fresh water is waiting for you on every visit."
     },
     "body": {
-      "hy": "Ծանծաղ եզրին խորությունը 1,1 մ է, ցատկի քարի մոտ՝ 2,4 մ։ Ոչինչ պարանով առանձնացված չէ։ Լողացեք ողջ երկարությամբ կամ նստեք արևմտյան ծայրի աստիճանին, որտեղ արևը մնում է մինչև ժամը ինը։",
-      "ru": "У мелкого края — 1,1 м, у камня для прыжков — 2,4 м. Ничего не огорожено. Проплывите всю длину или сядьте на ступень в западном конце, где солнце держится до девяти.",
-      "en": "It reads 1.1 m at the shallow shelf and 2.4 m at the diving stone. Nothing is roped off. Swim the length of it, or sit on the step at the western end where the sun holds until nine."
+      "hy": "Լողավազանի շուրջ բավական տեղ կա արևի տակ հանգստանալու, զրուցելու և երեխաների հետ ժամանակ անցկացնելու համար։ Լողից հետո կարող եք անցնել փակ սրահ, որը նախատեսված է մինչև 40 անձի համար և հագեցած է նորագույն խոհանոցային տեխնիկայով ու սպասքով, կամ միասին խորոված պատրաստել մեծ մանղալի վրա։ Տարածքում կան նաև հանգստյան սենյակ և 2 սանհանգույց։ Գտնվում ենք Ագարակ գյուղում՝ Երևանից ընդամենը 15 րոպե հեռավորության վրա։",
+      "ru": "Вокруг бассейна достаточно места, чтобы позагорать, пообщаться и провести время с детьми. После купания можно перейти в закрытый зал на 40 человек с новейшей кухонной техникой и посудой или вместе приготовить шашлык на большом мангале. На территории также есть комната отдыха и 2 санузла. Мы находимся в селе Агарак, всего в 15 минутах от Еревана.",
+      "en": "There is plenty of room around the pool to sunbathe, talk and spend time with the kids. After a swim, move into the indoor hall for up to 40 guests, fitted with the latest kitchen appliances and tableware, or cook together on the large barbecue. There is also a rest room and 2 bathrooms. We are in Agarak village, just 15 minutes from Yerevan."
     },
     "stats": [
       {
-        "value": "34",
-        "unit": { "hy": "մ", "ru": "м", "en": "m" },
-        "label": { "hy": "Լողավազանի երկարությունը", "ru": "Длина бассейна от края до края", "en": "Pool length, end to end" }
+        "value": "8",
+        "unit": {
+          "hy": "մ",
+          "ru": "м",
+          "en": "m"
+        },
+        "label": {
+          "hy": "Լողավազանի երկարություն",
+          "ru": "Длина бассейна",
+          "en": "Pool length"
+        }
       },
       {
-        "value": "27",
-        "unit": { "hy": "°", "ru": "°", "en": "°" },
-        "label": { "hy": "Ողջ սեզոնի ընթացքում", "ru": "Весь сезон, родниковая вода", "en": "Held all season, spring-fed" }
+        "value": "4",
+        "unit": {
+          "hy": "մ",
+          "ru": "м",
+          "en": "m"
+        },
+        "label": {
+          "hy": "Լողավազանի լայնություն",
+          "ru": "Ширина бассейна",
+          "en": "Pool width"
+        }
       },
       {
-        "value": "2.4",
-        "unit": { "hy": "մ", "ru": "м", "en": "m" },
-        "label": { "hy": "Ցատկի քարի մոտ", "ru": "У камня для прыжков", "en": "At the diving stone" }
+        "value": "165",
+        "unit": {
+          "hy": "սմ",
+          "ru": "см",
+          "en": "cm"
+        },
+        "label": {
+          "hy": "Լողավազանի խորություն",
+          "ru": "Глубина бассейна",
+          "en": "Pool depth"
+        }
       },
       {
-        "value": "90",
-        "unit": { "hy": "", "ru": "", "en": "" },
-        "label": { "hy": "Հյուր օրական։ Ոչ ավելի։", "ru": "Гостей в день. Не больше.", "en": "Guests a day. Never more." }
+        "value": "40",
+        "unit": {
+          "hy": "",
+          "ru": "",
+          "en": ""
+        },
+        "label": {
+          "hy": "Առավելագույն հյուրերի քանակ",
+          "ru": "Максимум гостей",
+          "en": "Maximum guests"
+        }
       }
     ]
   },
-
   "garden": {
-    "label": { "hy": "Այգին", "ru": "Сад", "en": "The Garden" },
-    "aside": { "hy": "Չորս դարավանդ · 1,8 հեկտար", "ru": "Четыре террасы · 1,8 гектара", "en": "Four terraces · 1.8 hectares" },
+    "label": {
+      "hy": "Փակ սրահ",
+      "ru": "Закрытый зал",
+      "en": "Indoor Hall"
+    },
+    "aside": {
+      "hy": "Ընդհանուր տարածքը՝ 500 քմ",
+      "ru": "Общая площадь — 500 м²",
+      "en": "Total area: 500 m²"
+    },
     "title": {
-      "hy": "Չորս հարյուր ծառ։\nՏասնմեկը ավելի հին են,\nքան *ճանապարհը։*",
-      "ru": "Четыреста деревьев.\nОдиннадцать из них старше\n*дороги.*",
-      "en": "Four hundred trees.\nEleven of them older\nthan the *road.*"
+      "hy": "Փակ սրահ՝\nմինչև 40 անձի\n*համար։*",
+      "ru": "Закрытый зал\nдо 40 человек\n*для вас.*",
+      "en": "An indoor hall\nfor up to\n*40 guests.*"
     },
     "imageBack": {
-      "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888478/asht1_w0io6q.jpg",
+      "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888477/asht4_lxxohj.jpg",
       "alt": {
-        "hy": "Հովանոցաձև սոճիներ՝ խուզված ցանկապատի վերևում",
-        "ru": "Зонтичные сосны над стриженой изгородью",
-        "en": "Umbrella pines above a clipped hedge"
+        "hy": "Հանգստյան գոտու տարածքը",
+        "ru": "Территория зоны отдыха",
+        "en": "The grounds of the retreat"
       }
     },
     "imageMid": {
       "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888476/zal1_cuzzkr.jpg",
       "alt": {
-        "hy": "Նոճիների միջով բարձրացող արահետ",
-        "ru": "Тропа, поднимающаяся между кипарисами",
-        "en": "A gravel path climbing between cypress trees"
+        "hy": "Փակ սրահը",
+        "ru": "Закрытый зал",
+        "en": "The indoor hall"
       }
     },
-    "imageMidCaption": { "hy": "Նոճիների ծառուղին", "ru": "Кипарисовая аллея", "en": "The cypress walk" },
-    "imageMidMeta": { "hy": "տնկված 1974-ին", "ru": "посажена в 1974-м", "en": "planted 1974" },
+    "imageMidCaption": {
+      "hy": "Փակ սրահը",
+      "ru": "Закрытый зал",
+      "en": "The indoor hall"
+    },
+    "imageMidMeta": {
+      "hy": "մինչև 40 անձ",
+      "ru": "до 40 человек",
+      "en": "up to 40 guests"
+    },
     "imageFront": {
       "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888477/ashta6_ziys2t.jpg",
       "alt": {
-        "hy": "Հին քարե աստիճաններ դարավանդավոր այգում",
-        "ru": "Старые каменные ступени в террасном саду",
-        "en": "Old stone steps rising through a terraced garden"
+        "hy": "Հանգստյան գոտու տարածքը",
+        "ru": "Территория зоны отдыха",
+        "en": "The grounds of the retreat"
       }
     },
     "body": {
-      "hy": "Դարավանդները հարյուր տարի առաջ կտրվել են ծիրանենիների համար և երբեք չեն հարթեցվել։ Աստիճանները թողել ենք ծուռ։ Օրվա ընթացքում ստվերը շարժվում է նրանց վրայով, և այգին երբեք նույնը չի լինում․ կեսօրին բոլորը թթենիների տակ են, իսկ ժամը վեցին միայն հեռավոր պատն է դեռ տաք։",
-      "ru": "Террасы сто лет назад вырезали под абрикосы и так и не выровняли. Кривые ступени мы оставили. Тень весь день ходит по ним, и сад ни разу не бывает одним и тем же местом: в полдень все под шелковицами, к шести тёплой остаётся только дальняя стена.",
-      "en": "The terraces were cut for apricots a hundred years ago and never levelled. We kept the steps crooked. Shade moves across them through the day, so the garden is never the same place twice — at noon everyone is under the mulberries, by six the far wall is the only warm thing left."
+      "hy": "Մեծ փակ սրահը նախատեսված է մինչև 40 անձի համար։ Այն հագեցած է նորագույն խոհանոցային տեխնիկայով և ամբողջական սպասքով, այնպես որ կարող եք ճաշեր պատրաստել հենց տեղում և ոչինչ հետներդ չբերել։ Սրահը իդեալական է ընտանեկան հավաքների, ծննդյան տոների և կոլեկտիվի միջոցառումների համար, իսկ անձրևն ու քամին չեն խանգարի ձեր օրվան։",
+      "ru": "Большой закрытый зал рассчитан на 40 человек. Он оснащён новейшей кухонной техникой и полным набором посуды, поэтому готовить можно прямо на месте и ничего не везти с собой. Зал идеально подходит для семейных встреч, дней рождения и корпоративных мероприятий, а дождь и ветер не испортят ваш день.",
+      "en": "The large indoor hall is designed for up to 40 guests. It is fitted with the latest kitchen appliances and a full set of tableware, so you can cook right here and bring nothing with you. It is ideal for family gatherings, birthdays and team events, and rain or wind won't spoil your day."
     },
     "tag": {
-      "hy": "Ջրվում է ժամը 05:00-ին՝ լողավազանի նույն աղբյուրից",
-      "ru": "Полив в 05:00 из того же родника, что и бассейн",
-      "en": "Watered at 05:00 from the same spring as the pool"
+      "hy": "Նորագույն խոհանոցային տեխնիկա և ամբողջական սպասք",
+      "ru": "Новейшая кухонная техника и полный набор посуды",
+      "en": "The latest kitchen appliances and a full set of tableware"
     },
     "species": [
-      { "hy": "Թզենի", "ru": "Инжир", "en": "Fig" },
-      { "hy": "Թթենի", "ru": "Шелковица", "en": "Mulberry" },
-      { "hy": "Նշենի", "ru": "Миндаль", "en": "Almond" },
-      { "hy": "Նոճի", "ru": "Кипарис", "en": "Cypress" },
-      { "hy": "Նռնենի", "ru": "Гранат", "en": "Pomegranate" },
-      { "hy": "Վայրի տանձենի", "ru": "Дикая груша", "en": "Wild pear" },
-      { "hy": "Ռոզմարին", "ru": "Розмарин", "en": "Rosemary" },
-      { "hy": "Դափնի", "ru": "Лавр", "en": "Bay" }
+      {
+        "hy": "Մինչև 40 անձ",
+        "ru": "До 40 человек",
+        "en": "Up to 40 guests"
+      },
+      {
+        "hy": "Նորագույն խոհանոցային տեխնիկա",
+        "ru": "Новейшая кухонная техника",
+        "en": "Latest kitchen appliances"
+      },
+      {
+        "hy": "Ամբողջական սպասք",
+        "ru": "Полный набор посуды",
+        "en": "Full set of tableware"
+      },
+      {
+        "hy": "Մեծ սեղաններ",
+        "ru": "Большие столы",
+        "en": "Long tables"
+      },
+      {
+        "hy": "Մեծ մանղալ",
+        "ru": "Большой мангал",
+        "en": "Large barbecue"
+      },
+      {
+        "hy": "Հանգստյան սենյակ",
+        "ru": "Комната отдыха",
+        "en": "Rest room"
+      },
+      {
+        "hy": "2 սանհանգույց",
+        "ru": "2 санузла",
+        "en": "2 bathrooms"
+      },
+      {
+        "hy": "Լողավազան 8×4 մ",
+        "ru": "Бассейн 8×4 м",
+        "en": "Pool 8×4 m"
+      }
     ]
   },
-
   "gallery": {
-    "label": { "hy": "Ներսից", "ru": "Изнутри", "en": "Seen from inside" },
-    "aside": { "hy": "{n} կադր, ամառ", "ru": "{n} кадров, лето", "en": "{n} frames, summer" },
+    "label": {
+      "hy": "Պատկերասրահ",
+      "ru": "Галерея",
+      "en": "Gallery"
+    },
+    "aside": {
+      "hy": "{n} կադր",
+      "ru": "{n} фото",
+      "en": "{n} photos"
+    },
     "items": [
       {
         "image": {
           "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888478/ashta1_wzpory.jpg",
-          "alt": { "hy": "Արևի լույսը լողավազանի ալիքավոր մակերեսին", "ru": "Солнечный свет в ряби бассейна", "en": "Sunlight refracting across the rippled surface of a pool" }
+          "alt": {
+            "hy": "Այգի, լողավազան",
+            "ru": "Сад и бассейн",
+            "en": "Garden & pool"
+          }
         },
         "ratio": "4 / 5",
-        "caption": { "hy": "Կեսօր, արևմտյան ծայր", "ru": "Полдень, западный край", "en": "Noon, west end" }
+        "caption": {
+          "hy": "Այգի, լողավազան",
+          "ru": "Сад и бассейн",
+          "en": "Garden & pool"
+        }
       },
       {
         "image": {
           "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888477/ashta2_ddy5s3.jpg",
-          "alt": { "hy": "Մարդու և արմավենու տերևի ստվերը պատին", "ru": "Тень человека и пальмового листа на стене", "en": "The shadow of a person and a palm frond on a wall" }
+          "alt": {
+            "hy": "Լողավազան",
+            "ru": "Бассейн",
+            "en": "The pool"
+          }
         },
         "ratio": "3 / 4",
-        "caption": { "hy": "Հանդերձարանի պատը", "ru": "Стена раздевалки", "en": "Wall of the changing house" }
+        "caption": {
+          "hy": "Լողավազան",
+          "ru": "Бассейн",
+          "en": "The pool"
+        }
       },
       {
         "image": {
           "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888477/ashta6_ziys2t.jpg",
-          "alt": { "hy": "Քարե աստիճաններ այգում", "ru": "Каменные ступени в саду", "en": "Old stone steps rising through a terraced garden" }
+          "alt": {
+            "hy": "Խոհանոց",
+            "ru": "Кухня",
+            "en": "Kitchen"
+          }
         },
         "ratio": "4 / 5",
-        "caption": { "hy": "Աստիճաններ դեպի վերին դարավանդ", "ru": "Ступени к верхней террасе", "en": "Steps to the upper terrace" }
+        "caption": {
+          "hy": "Խոհանոց",
+          "ru": "Кухня",
+          "en": "Kitchen"
+        }
       },
       {
         "image": {
           "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888477/asht4_lxxohj.jpg",
-          "alt": { "hy": "Ծալված սրբիչ լողավազանի քարե եզրին", "ru": "Сложенное полотенце на каменном бортике бассейна", "en": "A folded towel on the stone coping at the edge of the pool" }
+          "alt": {
+            "hy": "Փակ սրահ",
+            "ru": "Закрытый зал",
+            "en": "Indoor hall"
+          }
         },
         "ratio": "1 / 1",
-        "caption": { "hy": "Եզրաքար, հարավային կողմ", "ru": "Бортовой камень, южная сторона", "en": "Coping stone, south side" }
+        "caption": {
+          "hy": "Փակ սրահ",
+          "ru": "Закрытый зал",
+          "en": "Indoor hall"
+        }
       },
       {
         "image": {
           "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888478/ashta3_kyvmug.jpg",
-          "alt": { "hy": "Երկար սեղան՝ ծառերի տակ", "ru": "Длинный стол под деревьями", "en": "A long table and chairs set out under the trees" }
+          "alt": {
+            "hy": "Այգի, լողավազան",
+            "ru": "Сад и бассейн",
+            "en": "Garden & pool"
+          }
         },
         "ratio": "3 / 2",
-        "caption": { "hy": "Երկրորդ նստաշրջան", "ru": "Вторая посадка", "en": "Second sitting" }
+        "caption": {
+          "hy": "Այգի, լողավազան",
+          "ru": "Сад и бассейн",
+          "en": "Garden & pool"
+        }
       },
       {
         "image": {
           "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888478/asht1_w0io6q.jpg",
-          "alt": { "hy": "Երկար տերևներ պատի մոտ", "ru": "Длинные листья у стены", "en": "Long leaves leaning against a plastered wall" }
+          "alt": {
+            "hy": "Հանգստյան գոտու տարածքը",
+            "ru": "Территория",
+            "en": "The grounds"
+          }
         },
         "ratio": "4 / 5",
-        "caption": { "hy": "Պոմպակայանի հետևում", "ru": "За насосной", "en": "Behind the pump house" }
+        "caption": {
+          "hy": "Կանաչ անկյուն",
+          "ru": "Зелёный уголок",
+          "en": "Green corner"
+        }
       },
       {
         "image": {
           "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888478/asht2_tiv5sm.jpg",
-          "alt": { "hy": "Լողավազանը մթնշաղին", "ru": "Бассейн в сумерках", "en": "A pool at dusk lit by lanterns along its edge" }
+          "alt": {
+            "hy": "Մանղալ",
+            "ru": "Мангал",
+            "en": "Barbecue"
+          }
         },
         "ratio": "3 / 2",
-        "caption": { "hy": "19:52, լապտերները մարում են", "ru": "19:52, фонари гаснут", "en": "19:52, lanterns going out" }
+        "caption": {
+          "hy": "Մանղալ",
+          "ru": "Мангал",
+          "en": "Barbecue"
+        }
       },
       {
         "image": {
           "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793972325/night3_ucyakg.jpg",
-          "alt": { "hy": "Միայնակ աթոռ կոպիտ պատի մոտ", "ru": "Одинокий стул у шероховатой стены", "en": "A single chair against a rough rendered wall" }
+          "alt": {
+            "hy": "Փակ սրահի ֆասադը՝ լուսավորությամբ",
+            "ru": "Фасад зала с подсветкой",
+            "en": "Hall façade, lit up"
+          }
         },
         "ratio": "4 / 5",
-        "caption": { "hy": "Լուռ անկյունը", "ru": "Тихий угол", "en": "The quiet corner" }
+        "caption": {
+          "hy": "Փակ սրահի ֆասադը՝ լուսավորությամբ",
+          "ru": "Фасад зала с подсветкой",
+          "en": "Hall façade, lit up"
+        }
       },
       {
         "image": {
           "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888476/zal1_cuzzkr.jpg",
-          "alt": { "hy": "Սաղարթի ստվերներ տերակոտե պատին", "ru": "Тени листвы на терракотовой стене", "en": "Foliage shadows on a terracotta wall at midday" }
+          "alt": {
+            "hy": "Փակ սրահ",
+            "ru": "Закрытый зал",
+            "en": "Indoor hall"
+          }
         },
         "ratio": "1 / 1",
-        "caption": { "hy": "Տերակոտա, հուլիս", "ru": "Терракота, июль", "en": "Terracotta, July" }
+        "caption": {
+          "hy": "Փակ սրահ",
+          "ru": "Закрытый зал",
+          "en": "Indoor hall"
+        }
       },
       {
         "image": {
-          "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793888476/zal1_cuzzkr.jpg",
-          "alt": { "hy": "Արահետ նոճիների միջով", "ru": "Тропа между кипарисами", "en": "A gravel path climbing between cypress trees" }
+          "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1794229216/Modern_Gray_Bedroom_with_Red_Accent_ikxpad.png",
+          "alt": {
+            "hy": "Սրահը՝ մինչև 40 հոգու համար",
+            "ru": "Зал на 40 человек",
+            "en": "The hall, seating up to 40"
+          }
         },
         "ratio": "3 / 4",
-        "caption": { "hy": "Նոճիների ծառուղին", "ru": "Кипарисовая аллея", "en": "The cypress walk" }
+        "caption": {
+          "hy": "40 հոգու համար",
+          "ru": "На 40 человек",
+          "en": "Seats 40"
+        }
       },
       {
         "image": {
           "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793972349/night2_rtjubq.jpg",
-          "alt": { "hy": "Թափանցիկ ջուր սալիկապատ հատակի վրա", "ru": "Прозрачная вода над плиточным дном", "en": "Clear water moving over a tiled floor" }
+          "alt": {
+            "hy": "Կանաչ գոտի",
+            "ru": "Зелёная зона",
+            "en": "Green area"
+          }
         },
         "ratio": "4 / 5",
-        "caption": { "hy": "Ծանծաղ եզրը", "ru": "Мелководье", "en": "Shallow shelf" }
+        "caption": {
+          "hy": "Կանաչ գոտի",
+          "ru": "Зелёная зона",
+          "en": "Green area"
+        }
       },
       {
         "image": {
           "src": "https://res.cloudinary.com/dstegi8xy/image/upload/v1793972350/night1_mvkfup.jpg",
-          "alt": { "hy": "Թիկից պառկելաթոռ՝ սպիտակ կտավով", "ru": "Шезлонг из тика с белым холстом", "en": "A teak deck chair with white canvas" }
+          "alt": {
+            "hy": "Լողավազանը երեկոյան",
+            "ru": "Бассейн вечером",
+            "en": "The pool in the evening"
+          }
         },
         "ratio": "1 / 1",
-        "caption": { "hy": "Աթոռ № 14", "ru": "Стул № 14", "en": "Chair no. 14" }
+        "caption": {
+          "hy": "Լողավազանը երեկոյան",
+          "ru": "Бассейн вечером",
+          "en": "The pool in the evening"
+        }
       }
     ]
   },
-
   "visit": {
-    "label": { "hy": "Այցելություն", "ru": "Визит", "en": "Visit" },
+    "label": {
+      "hy": "Ամրագրում",
+      "ru": "Бронирование",
+      "en": "Booking"
+    },
     "title": {
-      "hy": "Եկեք մեկ օրով։\nՄնացեք մինչև *լապտերները։*",
-      "ru": "Приезжайте на день.\nОставайтесь до *фонарей.*",
-      "en": "Come for the day.\nStay until the *lanterns.*"
+      "hy": "Ամրագրեք ձեր օրը՝\nդարձնելով այն\n*հիշարժան։*",
+      "ru": "Забронируйте свой день\nи сделайте его\n*незабываемым.*",
+      "en": "Book your day\nand make it\n*memorable.*"
     },
     "image": {
       "src": "https://images.unsplash.com/photo-1657568916069-dd3b35a1b9ba",
       "alt": {
-        "hy": "Լույսերի շարաններ՝ երեկոյան հանդարտ ջրի վերևում",
-        "ru": "Гирлянды огней над тихой водой вечером",
-        "en": "Festoon lights strung above still water in the evening"
+        "hy": "Լույսերի շարաններ՝ երեկոյան ջրի վերևում",
+        "ru": "Гирлянды огней над водой вечером",
+        "en": "Festoon lights above the water in the evening"
       }
     },
     "form": {
-      "name": { "hy": "Անուն", "ru": "Имя", "en": "Name" },
-      "namePlaceholder": { "hy": "Ով է գալիս", "ru": "Кто приедет", "en": "Who is coming" },
-      "date": { "hy": "Ամսաթիվ", "ru": "Дата", "en": "Date" },
-      "party": { "hy": "Հյուրեր", "ru": "Гостей", "en": "Party" },
-      "email": { "hy": "Էլ. փոստ", "ru": "Почта", "en": "Email" },
-      "submit": { "hy": "Հայցել օր", "ru": "Запросить день", "en": "Request a day" },
+      "name": {
+        "hy": "Անուն",
+        "ru": "Имя",
+        "en": "Name"
+      },
+      "namePlaceholder": {
+        "hy": "Ձեր անունը",
+        "ru": "Ваше имя",
+        "en": "Your name"
+      },
+      "date": {
+        "hy": "Ամսաթիվ",
+        "ru": "Дата",
+        "en": "Date"
+      },
+      "party": {
+        "hy": "Հյուրերի քանակ",
+        "ru": "Количество гостей",
+        "en": "Guests"
+      },
+      "email": {
+        "hy": "Էլ. փոստ",
+        "ru": "Почта",
+        "en": "Email"
+      },
+      "submit": {
+        "hy": "Ուղարկել հայտը",
+        "ru": "Отправить заявку",
+        "en": "Send request"
+      },
       "fineprint": {
-        "hy": "Ամրագրումները բացվում են յուրաքանչյուր ամսի մեկին՝ հաջորդ ամսվա համար։",
-        "ru": "Бронирование открывается первого числа каждого месяца на следующий месяц.",
-        "en": "Reservations open on the first of each month for the month following."
+        "hy": "Տարածքը տրամադրվում է օրավարձով՝ միայն մեկ խմբի։ Հայտից հետո կկապվենք ձեզ հետ՝ ամսաթիվը հաստատելու համար։",
+        "ru": "Территория сдаётся посуточно и только одной компании. После заявки мы свяжемся с вами, чтобы подтвердить дату.",
+        "en": "The place is hired by the day to one group only. After your request we will contact you to confirm the date."
       }
     },
     "sent": {
-      "title": { "hy": "Հայտը ստացված է։", "ru": "Заявка получена.", "en": "Request received." },
-      "body": {
-        "hy": "Յուրաքանչյուր հայտի պատասխանում ենք անձամբ, սովորաբար մեկ օրվա ընթացքում։ Եթե ամսաթիվն արդեն զբաղված է, կառաջարկենք դրան ամենամոտ երկու օրը։",
-        "ru": "Мы отвечаем на каждую заявку лично, обычно в течение дня. Если дата уже занята, предложим две ближайшие.",
-        "en": "We answer every request by hand, usually within a day. If the date is already full we will offer you the two closest to it."
+      "title": {
+        "hy": "Հայտը ստացված է։",
+        "ru": "Заявка получена.",
+        "en": "Request received."
       },
-      "again": { "hy": "Ուղարկել ևս մեկը", "ru": "Отправить ещё", "en": "Send another" }
+      "body": {
+        "hy": "Շնորհակալություն։ Շուտով կկապվենք ձեզ հետ՝ ամսաթիվը հաստատելու համար։ Եթե օրն արդեն զբաղված է, կառաջարկենք մոտակա ազատ օրերը։",
+        "ru": "Спасибо! Мы скоро свяжемся с вами, чтобы подтвердить дату. Если день уже занят, предложим ближайшие свободные даты.",
+        "en": "Thank you! We will be in touch shortly to confirm the date. If the day is already taken, we will suggest the nearest free dates."
+      },
+      "again": {
+        "hy": "Ուղարկել ևս մեկը",
+        "ru": "Отправить ещё",
+        "en": "Send another"
+      }
     },
-    "where": { "hy": "Որտեղ", "ru": "Где", "en": "Where" },
-    "hoursLabel": { "hy": "Ժամեր", "ru": "Часы", "en": "Hours" },
+    "where": {
+      "hy": "Որտեղ",
+      "ru": "Где",
+      "en": "Where"
+    },
+    "hoursLabel": {
+      "hy": "Ժամեր",
+      "ru": "Часы",
+      "en": "Hours"
+    },
     "hoursNote": {
-      "hy": "Առաջին լող 06:30 · Լապտերներ 19:40",
-      "ru": "Первый заплыв 06:30 · Фонари 19:40",
-      "en": "First swim 06:30 · Lanterns 19:40"
+      "hy": "Երևանից ընդամենը 15 րոպե",
+      "ru": "Всего 15 минут от Еревана",
+      "en": "Just 15 minutes from Yerevan"
     },
-    "speak": { "hy": "Կապ մեզ հետ", "ru": "Связаться", "en": "Speak to someone" }
+    "speak": {
+      "hy": "Կապ մեզ հետ",
+      "ru": "Связаться",
+      "en": "Contact us"
+    }
   },
-
   "footer": {
     "blurb": {
-      "hy": "Մասնավոր լողավազան-այգի Քասաղի կիրճի վերևում։ Օրական իննսուն հյուր՝ մայիսի առաջին առավոտից մինչև հոկտեմբերի վերջին լապտերը։",
-      "ru": "Частный сад с бассейном над ущельем Касах. Девяносто гостей в день — с первого майского утра до последнего фонаря в октябре.",
-      "en": "A private pool garden above the Kasagh gorge. Ninety guests a day, from the first morning of May until the last lantern in October."
+      "hy": "Օրավարձով հանգստյան գոտի Ագարակ գյուղում՝ Երևանից 15 րոպե հեռավորության վրա։ Լողավազան, 40 հոգանոց սրահ, խոհանոց և մանղալ՝ ընտանիքով կամ կոլեկտիվով հանգստի համար։",
+      "ru": "Зона отдыха посуточно в селе Агарак, в 15 минутах от Еревана. Бассейн, зал на 40 человек, кухня и мангал — для отдыха с семьёй или коллективом.",
+      "en": "A day-hire retreat in Agarak village, 15 minutes from Yerevan. Pool, hall for 40, kitchen and barbecue — for a day out with family or colleagues."
     },
-    "gardenLabel": { "hy": "Այգին", "ru": "Сад", "en": "The garden" },
-    "sectionsLabel": { "hy": "Բաժիններ", "ru": "Разделы", "en": "Sections" },
-    "elsewhereLabel": { "hy": "Այլուր", "ru": "Мы в сети", "en": "Elsewhere" },
-    "reachLabel": { "hy": "Կապ", "ru": "Контакты", "en": "Reach us" },
+    "gardenLabel": {
+      "hy": "Մեր մասին",
+      "ru": "О нас",
+      "en": "About"
+    },
+    "sectionsLabel": {
+      "hy": "Բաժիններ",
+      "ru": "Разделы",
+      "en": "Sections"
+    },
+    "elsewhereLabel": {
+      "hy": "Սոցցանցեր",
+      "ru": "Мы в сети",
+      "en": "Follow us"
+    },
+    "reachLabel": {
+      "hy": "Կապ",
+      "ru": "Контакты",
+      "en": "Contact"
+    },
     "links": [
-      { "label": { "hy": "Instagram", "ru": "Instagram", "en": "Instagram" }, "href": "https://instagram.com" },
-      { "label": { "hy": "Օրագիր", "ru": "Журнал", "en": "Journal" }, "href": "#atmosphere" },
-      { "label": { "hy": "Մասնավոր միջոցառումներ", "ru": "Частные мероприятия", "en": "Private hire" }, "href": "#visit" },
-      { "label": { "hy": "Մամուլի համար", "ru": "Для прессы", "en": "Press kit" }, "href": "#visit" }
+      {
+        "label": {
+          "hy": "Instagram",
+          "ru": "Instagram",
+          "en": "Instagram"
+        },
+        "href": "https://instagram.com"
+      },
+      {
+        "label": {
+          "hy": "Միջոցառումներ",
+          "ru": "Мероприятия",
+          "en": "Events"
+        },
+        "href": "#visit"
+      }
     ],
-    "back": { "hy": "Վերադառնալ ջրին ↑", "ru": "Обратно к воде ↑", "en": "Back to the water ↑" }
+    "back": {
+      "hy": "Վերև ↑",
+      "ru": "Наверх ↑",
+      "en": "Back to top ↑"
+    }
   },
-
   "ui": {
-    "skip": { "hy": "Անցնել բովանդակությանը", "ru": "Перейти к содержанию", "en": "Skip to content" },
-    "est": { "hy": "Հիմն.", "ru": "Осн.", "en": "Est." },
-    "local": { "hy": "տեղական", "ru": "местное", "en": "local" },
-    "water": { "hy": "ջուր", "ru": "вода", "en": "water" },
-    "scroll": { "hy": "Թերթել", "ru": "Листайте", "en": "Scroll" },
-    "menuOpen": { "hy": "Բացել ընտրացանկը", "ru": "Открыть меню", "en": "Open menu" },
-    "menuClose": { "hy": "Փակել ընտրացանկը", "ru": "Закрыть меню", "en": "Close menu" },
-    "prev": { "hy": "Նախորդ", "ru": "Назад", "en": "Prev" },
-    "next": { "hy": "Հաջորդ", "ru": "Далее", "en": "Next" },
-    "close": { "hy": "Փակել", "ru": "Закрыть", "en": "Close" },
-    "view": { "hy": "Դիտել", "ru": "Смотреть", "en": "View" },
-    "touch": { "hy": "Դիպչել", "ru": "Коснуться", "en": "Touch" },
-    "send": { "hy": "Ուղարկել", "ru": "Отправить", "en": "Send" },
-    "language": { "hy": "Լեզու", "ru": "Язык", "en": "Language" }
+    "skip": {
+      "hy": "Անցնել բովանդակությանը",
+      "ru": "Перейти к содержанию",
+      "en": "Skip to content"
+    },
+    "est": {
+      "hy": "Հիմն.",
+      "ru": "Осн.",
+      "en": "Est."
+    },
+    "local": {
+      "hy": "տեղական",
+      "ru": "местное",
+      "en": "local"
+    },
+    "water": {
+      "hy": "լողավազան",
+      "ru": "бассейн",
+      "en": "pool"
+    },
+    "scroll": {
+      "hy": "Թերթել",
+      "ru": "Листайте",
+      "en": "Scroll"
+    },
+    "menuOpen": {
+      "hy": "Բացել ընտրացանկը",
+      "ru": "Открыть меню",
+      "en": "Open menu"
+    },
+    "menuClose": {
+      "hy": "Փակել ընտրացանկը",
+      "ru": "Закрыть меню",
+      "en": "Close menu"
+    },
+    "prev": {
+      "hy": "Նախորդ",
+      "ru": "Назад",
+      "en": "Prev"
+    },
+    "next": {
+      "hy": "Հաջորդ",
+      "ru": "Далее",
+      "en": "Next"
+    },
+    "close": {
+      "hy": "Փակել",
+      "ru": "Закрыть",
+      "en": "Close"
+    },
+    "view": {
+      "hy": "Դիտել",
+      "ru": "Смотреть",
+      "en": "View"
+    },
+    "touch": {
+      "hy": "Դիպչել",
+      "ru": "Коснуться",
+      "en": "Touch"
+    },
+    "send": {
+      "hy": "Ուղարկել",
+      "ru": "Отправить",
+      "en": "Send"
+    },
+    "language": {
+      "hy": "Լեզու",
+      "ru": "Язык",
+      "en": "Language"
+    }
   }
 }
