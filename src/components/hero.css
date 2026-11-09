@@ -40,7 +40,13 @@
 
 /* ink at the top for nav legibility, warmth at the waterline */
 .hero__veil {
-  display: none;
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, rgba(14, 19, 16, 0.7), rgba(14, 19, 16, 0.18) 42%, rgba(14, 19, 16, 0.2) 64%, rgba(14, 19, 16, 0.68)),
+    linear-gradient(90deg, rgba(14, 19, 16, 0.18), transparent 72%);
 }
 
 .hero__inner {
@@ -49,7 +55,7 @@
   width: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto auto;
-  padding-top: clamp(84px, 13vh, 130px);
+  padding-top: clamp(112px, 15vh, 160px);
   padding-bottom: clamp(20px, 4vh, 44px);
 }
 
@@ -60,7 +66,8 @@
   align-items: center;
   gap: 0.7rem;
   flex-wrap: wrap;
-  color: color-mix(in srgb, var(--bone) 82%, transparent);
+  color: var(--bone);
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.85);
 }
 
 .hero__eyebrow-sep {
@@ -82,11 +89,12 @@
 }
 
 .hero__title {
-  text-shadow: 0 2px 40px rgba(6, 12, 9, 0.35);
+  text-shadow: 0 2px 40px rgba(6, 12, 9, 0.72);
 }
 
 .hero__title em {
-  color: color-mix(in srgb, var(--foam) 85%, var(--bone));
+  color: color-mix(in srgb, var(--foam) 62%, white);
+  text-shadow: 0 2px 28px rgba(0, 0, 0, 0.9);
 }
 
 /* ------------------------------------------------------------ plate */
@@ -153,6 +161,12 @@
   align-items: center;
   gap: 0.5rem;
   flex-wrap: wrap;
+  color: var(--bone);
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.9);
+}
+
+.hero__meta .label--muted {
+  color: color-mix(in srgb, var(--bone) 86%, transparent);
 }
 
 .hero__clock {
@@ -249,7 +263,8 @@
 .hero__cta-text {
   font-family: var(--mono);
   font-size: 10.5px;
-  fill: currentColor;
+  fill: var(--bone);
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.95));
 }
 
 .hero__cta-arrow {

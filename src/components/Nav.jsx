@@ -92,11 +92,18 @@ export default function Nav({ ready }) {
 
   const go = (e, id) => {
     e.preventDefault()
+    if (open) start?.()
     setOpen(false)
     const target = document.getElementById(id)
     if (!target) return
-    if (scrollTo) scrollTo(target, { offset: -2, duration: 1.6 })
-    else target.scrollIntoView({ behavior: 'smooth' })
+    const offset = (bar.current?.offsetHeight ?? 0) + 16
+    if (scrollTo) scrollTo(target, { offset: -offset, duration: 1.6 })
+    else {
+      window.scrollTo({
+        top: window.scrollY + target.getBoundingClientRect().top - offset,
+        behavior: prefersReducedMotion() ? 'auto' : 'smooth',
+      })
+    }
   }
 
   return (
@@ -114,7 +121,7 @@ export default function Nav({ ready }) {
             scrollTo ? scrollTo(0, { duration: 1.6 }) : window.scrollTo(0, 0)
           }}
         >
-          <span className="nav__mark">{c.brand.name.toUpperCase()}</span>
+          <img className="nav__logo" src="/logo.png" alt={c.brand.name} />
           <span className="nav__kind label label--muted">{t(c.brand.kind)}</span>
         </a>
 
