@@ -122,7 +122,6 @@ export default function Nav({ ready }) {
           }}
         >
           <img className="nav__logo" src="/logo.png" alt={c.brand.name} />
-          <span className="nav__kind label label--muted">{t(c.brand.kind)}</span>
         </a>
 
         <nav className="nav__links" aria-label={t(c.footer.sectionsLabel)}>

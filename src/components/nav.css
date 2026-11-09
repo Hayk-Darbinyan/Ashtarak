@@ -41,17 +41,6 @@
   filter: brightness(0) invert(1);
 }
 
-.nav__kind {
-  display: none;
-  font-size: 0.6rem;
-}
-
-@media (min-width: 1240px) {
-  .nav__kind {
-    display: inline;
-  }
-}
-
 /* ------------------------------------------------------------ links */
 
 .nav__links {
